@@ -91,7 +91,46 @@ toggleButton.addEventListener('click', () => {
 // The traffic light is on red
 
 
+// traffic-light.js
+// "use strict";
 
+// function getCurrentState(trafficLight) {
+//   return trafficLight.possibleStates[trafficLight.stateIndex];
+// }
+
+// function getNextStateIndex(trafficLight) {
+//   if (trafficLight.stateIndex === 0) {
+//     return 1; // Green to Orange
+//   } else if (trafficLight.stateIndex === 1) {
+//     return 2; // Orange to Red
+//   } else if (trafficLight.stateIndex === 2) {
+//     return 0; // Red to Green
+//   }
+// }
+
+// function waitSync(secs) {
+//   const start = Date.now();
+//   while (Date.now() - start < secs * 1000) {
+//     // Nothing to do here
+//   }
+// }
+
+// function main() {
+//   const trafficLight = {
+//     possibleStates: ["green", "orange", "red"],
+//     stateIndex: 0,
+//   };
+
+//   for (let cycle = 0; cycle < 6; cycle++) {
+//     const currentState = getCurrentState(trafficLight);
+//     console.log(cycle, "The traffic light is now", currentState);
+
+//     waitSync(1); // Wait a second before going to the next state
+//     trafficLight.stateIndex = getNextStateIndex(trafficLight);
+//   }
+// }
+
+// main();
 
 
 
